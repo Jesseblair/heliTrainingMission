@@ -1,6 +1,8 @@
 waitUntil {!isNull ((uiNamespace getVariable "RscDiary") displayCtrl 1)};
 ctrlActivate ((uiNamespace getVariable "RscDiary") displayCtrl 1);
 
+showWatch false;
+
 earplugInt = 1;
 
 CUSTOMBINDS_FNC = {
@@ -17,10 +19,10 @@ CUSTOMBINDS_FNC = {
 
 player addAction ["yMenu", {createDialog "yMenu"}];
 
-waituntil {!isnull (finddisplay 46)};
+waituntil {!isnull (findDisplay 46)};
 (findDisplay 46) displayAddEventHandler [
 	"KeyDown","_this select 1 call CUSTOMBINDS_FNC;
-	false;"
+	true;"
 ];
 
 heli_shop addAction
