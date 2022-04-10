@@ -7,7 +7,7 @@ CUSTOMBINDS_FNC = {
 		};
 		case 21: {
 			createDialog "yMenu";
-		}
+		};
 	};
 };
 
@@ -17,7 +17,7 @@ player addAction ["yMenu", {createDialog "yMenu"}];
 waituntil {!isnull (findDisplay 46)};
 (findDisplay 46) displayAddEventHandler [
 	"KeyDown","_this select 1 call CUSTOMBINDS_FNC;
-	true;"
+	false;"
 ];
 
 heli_shop addAction
