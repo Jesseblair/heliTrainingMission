@@ -21,7 +21,7 @@ heli_shop addAction
 [
 	"Spawn Heli",
 	{
-		createDialog "MyDialog"
+		createDialog "heliSpawnMenu"
 	},
 	nil,
 	2,

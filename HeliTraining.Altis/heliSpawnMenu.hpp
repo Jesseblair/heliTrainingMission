@@ -1,5 +1,5 @@
 #include "CustomControlClasses.h"
-class MyDialog
+class heliSpawnMenu
 {
 	idd = 1234;
 	
