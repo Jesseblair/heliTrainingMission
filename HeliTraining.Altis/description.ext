@@ -1,0 +1,19 @@
+#include "MyDialog.hpp"
+
+
+author			= "Ajax";
+onLoadName		= "Heli Training Grounds";
+onLoadMission	= "Test your piloting abilities";
+loadScreen		= "imageFiles\loadScreenImage.paa";
+
+
+disabledAI = 1;
+
+respawn = "BASE";
+respawnTemplates[] = {"Counter"};
+
+class cfgFunctions
+{
+	#include "functions\functions.hpp"
+};
+

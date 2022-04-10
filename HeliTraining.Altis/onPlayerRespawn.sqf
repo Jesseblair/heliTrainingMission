@@ -1,0 +1,1 @@
+player addAction ["mark lz", "hotLandingZones.sqf"];
