@@ -1,4 +1,3 @@
-
 switch earplugInt do 
 {
 	case 1:
